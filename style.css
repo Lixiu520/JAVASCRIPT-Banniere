@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+   font-size:  62.5%;
+}
+body{
+   font-size: 1.4rem;
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+   background-color: gray;
+}
+*******************Class*************************
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkolivegreen;
+  
+}
+.cookies{
+    position: fixed;
+    display: flex;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color: aquamarine;
+   justify-content: space-between;
+   align-items: center;
+   padding: 3rem;
+   opacity: 1;
+   transition: 0.5s;
+}
+.btn{
+    color:grey;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.btn .btn-success{
+    background-color: #1E2337;
+
+}
+.btn .btn-deny{
+    background-color:aquamarine;
+}
